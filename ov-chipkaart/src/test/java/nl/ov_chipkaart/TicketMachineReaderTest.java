@@ -1,12 +1,15 @@
 package nl.ov_chipkaart;
 
-import junit.framework.TestCase;
+import static org.junit.Assert.assertEquals;
 
-public class TicketMachineReaderTest extends TestCase {
+import org.junit.Before;
+
+public class TicketMachineReaderTest {
 	
 	TicketMachineReader reader;
 
-	protected void setUp() throws Exception {
+	@Before
+	public void setUp() {
 		reader = new TicketMachineReader();
 	}
 	

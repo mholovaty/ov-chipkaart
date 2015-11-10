@@ -3,6 +3,7 @@ package nl.ov_chipkaart;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
+import org.junit.Test;
 
 public class TicketMachineReaderTest {
 	
@@ -12,7 +13,8 @@ public class TicketMachineReaderTest {
 	public void setUp() {
 		reader = new TicketMachineReader();
 	}
-	
+
+	@Test
 	public void test() {		
 		CardData data = new CardData();
 		
